@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="ParrelSuite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="mavenExecutionDemo.TC005_ExecutionTest4"/>
+      <class name="mavenExecutionDemo.TC004_ExecutionTest3"/>
+      <class name="mavenExecutionDemo.TC001_ExecutionTest"/>
+      <class name="mavenExecutionDemo.TC003_ExecutionTest2"/>
+      <class name="mavenExecutionDemo.TC002_ExecutionTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ParrelSuite -->
